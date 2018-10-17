@@ -1,0 +1,1 @@
+CREATE TABLE `swift` (sender_ref int(12) NOT NULL, bank_op_code char(4),instr_code char(25),value_date char(30),amount char(15),order_cust varchar(300),order_institution char(16),benef_cust varchar(300),det_charges char(4),senders_charges char(8),rec_charges char(8),send_info char(16))
